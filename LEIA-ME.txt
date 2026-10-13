@@ -1,0 +1,17 @@
+MARÉ E REDE — FOTORREPORTAGEM SOBRE A PESCA ARTESANAL EM IMBITUBA
+
+Arquivos principais:
+- index.html: estrutura da página
+- style.css: estilo visual e adaptação para celular
+- dados.js: textos, títulos, legendas e caminhos das fotos
+- script.js: montagem dos capítulos, galeria, brasão e menu móvel
+- imagens/: fotografias e brasão enviados para esta reportagem
+
+Como abrir:
+1. Baixe o ZIP e extraia a pasta inteira para o computador.
+2. Não retire nem renomeie os arquivos da pasta imagens.
+3. Abra index.html com Chrome, Edge ou Firefox.
+
+As fotografias usadas na página ficam salvas localmente, então elas não dependem de links externos. É possível abrir o site sem internet.
+
+Antes de entregar o trabalho, substitua [coloque seu nome e a data] pelo seu nome e confirme, se souber, os locais/datas das fotografias. As legendas evitam atribuir nomes ou locais que não foram informados.

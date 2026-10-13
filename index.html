@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b2638">
+  <meta name="description" content="Uma reportagem sobre a pesca artesanal, a tradição da tainha e as comunidades pesqueiras de Imbituba, Santa Catarina.">
+  <title>Maré e Rede | Pesca artesanal em Imbituba</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="dados.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="marca" href="#inicio" aria-label="Maré e Rede, início"><span class="marca-icone">≈</span> MARÉ <span>&</span> REDE</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav id="menu" class="menu">
+      <a href="#historia">A tradição</a>
+      <a href="#tainha">Safra da tainha</a>
+      <a href="#comunidade">Comunidade</a>
+      <a href="#fontes">Fontes</a>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section class="hero" id="hero">
+      <div class="hero-imagem" id="heroImagem"></div>
+      <div class="hero-sombra"></div>
+      <div class="hero-conteudo">
+        <p class="sobretitulo" id="heroKicker"></p>
+        <h1 id="heroTitulo"></h1>
+        <p class="hero-subtitulo" id="heroSubtitulo"></p>
+        <p class="autoria" id="heroAutoria"></p>
+        <a class="cta" href="#historia">Conheça essa história <span>↓</span></a>
+      </div>
+      <div class="hero-etiqueta">LITORAL DE SANTA CATARINA</div>
+    </section>
+
+    <section class="introducao secao" id="historia">
+      <div class="coluna-rotulo"><span>01</span><span>Território e identidade</span></div>
+      <div class="introducao-texto" id="introducao"></div>
+    </section>
+
+    <div class="linha-mar" aria-hidden="true"><span>✳</span></div>
+    <section class="capitulos" id="capitulos"></section>
+
+    <section class="painel-destaque" id="tainha">
+      <div class="painel-texto">
+        <p class="sobretitulo">A safra de 2026</p>
+        <h2>Uma tradição que movimenta o litoral</h2>
+        <p>Os números da safra mostram a dimensão da pesca artesanal de tainha em Imbituba. Os dados abaixo referem-se ao cerco de praia na temporada de 2026.</p>
+      </div>
+      <div class="numero-destaque">
+        <strong id="totalTainha">151,5</strong>
+        <span>toneladas registradas</span>
+        <small>Pesca artesanal por cerco de praia · Imbituba</small>
+      </div>
+    </section>
+
+    <section class="secao comunidade" id="comunidade">
+      <div class="coluna-rotulo"><span>04</span><span>Olhar para o futuro</span></div>
+      <div class="comunidade-conteudo">
+        <p class="sobretitulo">Cultura viva</p>
+        <h2>Uma cultura registrada em imagens</h2>
+        <p>A continuidade da pesca artesanal depende da segurança dos trabalhadores, do cuidado com o ambiente costeiro e da transmissão dos conhecimentos entre gerações. Valorizar essa prática também significa ouvir quem vive dela e registrar suas experiências.</p>
+        <p class="nota">Esta fotorreportagem combina imagens de campo e legendas para acompanhar diferentes momentos da atividade pesqueira. Sempre que possível, registre o local, a data e o nome de quem fotografou.</p>
+      </div>
+    </section>
+
+    <section class="fontes" id="fontes">
+      <div class="fontes-inner">
+        <p class="sobretitulo">Para saber mais</p>
+        <h2 id="rodapeTitulo"></h2>
+        <p id="rodapeTexto"></p>
+        <p class="credito-final">Projeto editorial · Maré e Rede</p>
+      </div>
+    </section>
+  </main>
+
+  <footer><a class="marca" href="#inicio">MARÉ <span>&</span> REDE</a><span>Pesca artesanal em Imbituba, SC</span><a href="#inicio" class="voltar">Voltar ao topo ↑</a></footer>
+</body>
+</html>
